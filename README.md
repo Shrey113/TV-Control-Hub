@@ -14,13 +14,14 @@ Control your Android TV or Google TV directly from your phone — simple, fast, 
 ---
 ## ⬇️ Download
 
-Get the latest stable release of **TV Control Hub** from GitHub.
-
-👉 **[Download Latest APK](https://github.com/Shrey113/TV-Control-Hub/releases/latest/download/TV-Control-Hub.apk)**
+| Source | Link |
+|------|------|
+| 📦 Latest APK | 👉 **[Download](https://github.com/Shrey113/TV-Control-Hub/releases/latest/download/TV-Control-Hub.apk)** |
+| 🌐 Official Website | 👉 **[Visit](https://shrey113.github.io/TV-Control-Hub/)** |
 
 **Requirements**
 - Android 8.0 (Oreo) or newer
-- Phone and TV connected to the same Wi-Fi network
+- Phone and TV on the same Wi-Fi network
 
 ---
 
