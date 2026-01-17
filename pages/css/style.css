@@ -859,12 +859,6 @@ button:focus-visible {
 
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
-    .footer-main {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 768px) {
     :root {
         --spacing-lg: 3rem;
         --spacing-xl: 4rem;
@@ -914,8 +908,6 @@ button:focus-visible {
         grid-template-columns: 1fr;
     }
 
-
-
     .step {
         flex-direction: column;
         gap: var(--spacing-sm);
@@ -944,6 +936,7 @@ button:focus-visible {
         text-align: center;
     }
 }
+
 
 @media (max-width: 480px) {
     h1 {
