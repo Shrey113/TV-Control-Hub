@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- SEO Meta Tags -->
     <title>TV Control Hub - Control Your Smart TV & Android TV Remote App</title>
@@ -35,6 +37,7 @@
     <!-- Favicons & App Icons -->
     <link rel="icon" type="image/x-icon" href="./Data/favicon.ico">
     <link rel="icon" type="image/png" sizes="192x192" href="./Data/App%20icon.png">
+    <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="./Data/App%20icon.png">
 
     <!-- Theme Color -->
@@ -84,11 +87,8 @@
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
-                    <polyline points="17 2 12 7 7 2"></polyline>
-                </svg>
+                <img src="./Data/App%20icon.png" alt="TV Control Hub Logo" width="32" height="32"
+                    style="border-radius: 8px;">
                 <span>TV Control Hub</span>
             </div>
 
@@ -109,241 +109,248 @@
         </div>
     </nav>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="hero-content">
-            <div class="logo-badge">
-                <div class="status-badge">v1.0 • Stable • Privacy-First</div>
-            </div>
-
-            <h1>
-                <span class="gradient-text">Control Every Smart TV.</span>
-            </h1>
-
-
-            <p class="subtitle">
-                Control your smart TVs from anywhere. Fast, secure, and completely private.
-            </p>
-
-
-            <div class="cta-buttons">
-                <a href="#download" class="btn btn-primary">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    Get Started Free
-                </a>
-                <a href="#how-it-works" class="btn btn-secondary">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <polygon points="10 8 16 12 10 16 10 8"></polygon>
-                    </svg>
-                    See How it Works
-                </a>
-            </div>
-
-            <!-- Trust Indicators -->
-            <div class="trust-indicators">
-                <div class="trust-item">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                    </svg>
-                    <span>100% Private</span>
+    <!-- MAIN CONTENT WRAPPER -->
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="logo-badge">
+                    <div class="status-badge">v1.0 • Stable • Privacy-First</div>
                 </div>
-                <div class="trust-item">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                        <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-                    </svg>
-                    <span>No Ads Ever</span>
-                </div>
-                <div class="trust-item">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                    </svg>
-                    <span>Free Forever</span>
-                </div>
-            </div>
-        </div>
 
-        <!-- Scroll Indicator -->
-        <div class="scroll-indicator">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-        </div>
-    </section>
+                <h1>
+                    <span class="gradient-text">Control Every Smart TV.</span>
+                </h1>
 
-    <!-- COMPATIBILITY SECTION -->
-    <section class="compatibility">
-        <div class="container">
-            <p class="compatibility-label">Works seamlessly with</p>
-            <div class="compatibility-logos">
-                <div class="compat-badge">Android TV</div>
-                <div class="compat-badge">Google TV</div>
-                <div class="compat-badge">Chromecast</div>
-                <div class="compat-badge">Smart TVs</div>
-            </div>
-        </div>
-    </section>
 
-    <!-- WHY CHOOSE US SECTION -->
-    <section id="why-choose-us" class="why-choose-us">
-        <div class="container">
-            <div class="section-header fade-in">
-                <h2 class="section-title">Why Choose TV Control Hub?</h2>
-                <p class="section-subtitle">
-                    Built with your privacy and experience in mind
+                <p class="subtitle">
+                    Control your smart TVs from anywhere. Fast, secure, and completely private.
                 </p>
-            </div>
-
-            <div class="benefits-grid">
-                <div class="benefit-card fade-in">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-                    </svg>
-                    <h3>100% Privacy-First</h3>
-                    <p>Works entirely on your local network. No data collection, no tracking, no cloud servers.</p>
-                </div>
-
-                <div class="benefit-card fade-in">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="8" r="7"></circle>
-                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
-                    </svg>
-                    <h3>No Ads, Ever</h3>
-                    <p>Clean, distraction-free experience. We respect your time and attention.</p>
-                </div>
-
-                <div class="benefit-card fade-in">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="8.5" cy="7" r="4"></circle>
-                        <polyline points="17 11 19 13 23 9"></polyline>
-                    </svg>
-                    <h3>No Login Required</h3>
-                    <p>Start using immediately. No account creation, no email verification needed.</p>
-                </div>
-
-                <div class="benefit-card fade-in">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
-                        <line x1="7" y1="7" x2="7.01" y2="7"></line>
-                    </svg>
-                    <h3>Free Forever</h3>
-                    <p>All features included. No premium tiers, no hidden costs, no subscriptions.</p>
-                </div>
-
-                <div class="benefit-card fade-in">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="m21 21-4.35-4.35"></path>
-                    </svg>
-                    <h3>Auto Discovery</h3>
-                    <p>Instantly finds all Android TVs and Cast devices on your network. Zero manual setup.</p>
-                </div>
-
-                <div class="benefit-card fade-in">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-                    </svg>
-                    <h3>Lightning Fast</h3>
-                    <p>Instant response with optimized protocols. Zero lag, pure performance.</p>
-                </div>
-            </div>
 
 
-        </div>
-    </section>
-
-    <!-- HOW IT WORKS SECTION -->
-    <section id="how-it-works" class="how-to-use">
-        <div class="container">
-            <div class="section-header fade-in">
-                <h2 class="section-title">Get Started in Seconds</h2>
-                <p class="section-subtitle">
-                    Four simple steps to full TV control
-                </p>
-            </div>
-
-            <div class="steps-container">
-                <div class="step fade-in">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3 class="step-title">Install & Connect to Wi-Fi</h3>
-                        <p class="step-description">
-                            Download the app and ensure your device is on the same Wi-Fi network as your TV.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="step fade-in">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3 class="step-title">Auto-Discover Your Devices</h3>
-                        <p class="step-description">
-                            The app automatically scans and displays all compatible TVs and Cast devices nearby.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="step fade-in">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3 class="step-title">Pair Securely</h3>
-                        <p class="step-description">
-                            Tap your TV, enter the pairing code shown on screen, and establish a secure connection.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="step fade-in">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <h3 class="step-title">Take Full Control</h3>
-                        <p class="step-description">
-                            Navigate, adjust volume, cast media, and enjoy seamless control from your phone.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- DOWNLOAD CTA -->
-    <section id="download" class="download-cta">
-        <div class="container">
-            <div class="cta-content fade-in">
-                <h2>Start Controlling Your TV Today</h2>
-                <p>Join thousands enjoying seamless, private TV control</p>
                 <div class="cta-buttons">
-                    <a href="https://github.com/shrey113" class="btn btn-primary btn-large" target="_blank"
-                        rel="noopener noreferrer">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                            <path
-                                d="M12,2C6.477,2 2,6.477 2,12c0,4.42 2.865,8.17 6.839,9.49 0.5,0.092 0.682,-0.217 0.682,-0.482 0,-0.237 -0.009,-0.866 -0.013,-1.7 -2.782,0.604 -3.369,-1.34 -3.369,-1.34 -0.454,-1.156 -1.11,-1.463 -1.11,-1.463 -0.908,-0.62 0.069,-0.608 0.069,-0.608 1.003,0.07 1.531,1.03 1.531,1.03 0.892,1.529 2.341,1.087 2.91,0.831 0.091,-0.646 0.349,-1.086 0.635,-1.336 -2.22,-0.253 -4.555,-1.11 -4.555,-4.943 0,-1.091 0.39,-1.984 1.029,-2.683 -0.103,-0.253 -0.446,-1.27 0.098,-2.647 0,0 0.84,-0.269 2.75,1.025A9.564,9.564 0,0,1 12,6.844c0.85,0.004 1.705,0.114 2.504,0.336 1.909,-1.294 2.747,-1.025 2.747,-1.025 0.546,1.377 0.203,2.394 0.1,2.647 0.64,0.699 1.028,1.592 1.028,2.683 0,3.842 -2.339,4.687 -4.566,4.935 0.359,0.309 0.678,0.919 0.678,1.852 0,1.336 -0.012,2.415 -0.012,2.743 0,0.267 0.18,0.578 0.688,0.481C19.138,20.167 22,16.42 22,12c0,-5.523 -4.477,-10 -10,-10Z" />
+                    <a href="#download" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
                         </svg>
-                        Download on GitHub
+                        Get Started Free
+                    </a>
+                    <a href="#how-it-works" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                        </svg>
+                        See How it Works
                     </a>
                 </div>
+
+                <!-- Trust Indicators -->
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        <span>100% Private</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                        </svg>
+                        <span>No Ads Ever</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                        <span>Free Forever</span>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </div>
+        </section>
+
+        <!-- COMPATIBILITY SECTION -->
+        <section class="compatibility">
+            <div class="container">
+                <p class="compatibility-label">Works seamlessly with</p>
+                <div class="compatibility-logos">
+                    <div class="compat-badge">Android TV</div>
+                    <div class="compat-badge">Google TV</div>
+                    <div class="compat-badge">Chromecast</div>
+                    <div class="compat-badge">Smart TVs</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US SECTION -->
+        <section id="why-choose-us" class="why-choose-us">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Why Choose TV Control Hub?</h2>
+                    <p class="section-subtitle">
+                        Built with your privacy and experience in mind
+                    </p>
+                </div>
+
+                <div class="benefits-grid">
+                    <div class="benefit-card fade-in">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                        <h3>100% Privacy-First</h3>
+                        <p>Works entirely on your local network. No data collection, no tracking, no cloud servers.</p>
+                    </div>
+
+                    <div class="benefit-card fade-in">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                        <h3>No Ads, Ever</h3>
+                        <p>Clean, distraction-free experience. We respect your time and attention.</p>
+                    </div>
+
+                    <div class="benefit-card fade-in">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="8.5" cy="7" r="4"></circle>
+                            <polyline points="17 11 19 13 23 9"></polyline>
+                        </svg>
+                        <h3>No Login Required</h3>
+                        <p>Start using immediately. No account creation, no email verification needed.</p>
+                    </div>
+
+                    <div class="benefit-card fade-in">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z">
+                            </path>
+                            <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                        </svg>
+                        <h3>Free Forever</h3>
+                        <p>All features included. No premium tiers, no hidden costs, no subscriptions.</p>
+                    </div>
+
+                    <div class="benefit-card fade-in">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <h3>Auto Discovery</h3>
+                        <p>Instantly finds all Android TVs and Cast devices on your network. Zero manual setup.</p>
+                    </div>
+
+                    <div class="benefit-card fade-in">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                        <h3>Lightning Fast</h3>
+                        <p>Instant response with optimized protocols. Zero lag, pure performance.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- HOW IT WORKS SECTION -->
+        <section id="how-it-works" class="how-to-use">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2 class="section-title">Get Started in Seconds</h2>
+                    <p class="section-subtitle">
+                        Four simple steps to full TV control
+                    </p>
+                </div>
+
+                <div class="steps-container">
+                    <div class="step fade-in">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Install & Connect to Wi-Fi</h3>
+                            <p class="step-description">
+                                Download the app and ensure your device is on the same Wi-Fi network as your TV.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="step fade-in">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Auto-Discover Your Devices</h3>
+                            <p class="step-description">
+                                The app automatically scans and displays all compatible TVs and Cast devices nearby.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="step fade-in">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Pair Securely</h3>
+                            <p class="step-description">
+                                Tap your TV, enter the pairing code shown on screen, and establish a secure connection.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="step fade-in">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Take Full Control</h3>
+                            <p class="step-description">
+                                Navigate, adjust volume, cast media, and enjoy seamless control from your phone.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DOWNLOAD CTA -->
+        <section id="download" class="download-cta">
+            <div class="container">
+                <div class="cta-content fade-in">
+                    <h2>Start Controlling Your TV Today</h2>
+                    <p>Join thousands enjoying seamless, private TV control</p>
+                    <div class="cta-buttons">
+                        <a href="https://github.com/shrey113" class="btn btn-primary btn-large" target="_blank"
+                            rel="noopener noreferrer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12,2C6.477,2 2,6.477 2,12c0,4.42 2.865,8.17 6.839,9.49 0.5,0.092 0.682,-0.217 0.682,-0.482 0,-0.237 -0.009,-0.866 -0.013,-1.7 -2.782,0.604 -3.369,-1.34 -3.369,-1.34 -0.454,-1.156 -1.11,-1.463 -1.11,-1.463 -0.908,-0.62 0.069,-0.608 0.069,-0.608 1.003,0.07 1.531,1.03 1.531,1.03 0.892,1.529 2.341,1.087 2.91,0.831 0.091,-0.646 0.349,-1.086 0.635,-1.336 -2.22,-0.253 -4.555,-1.11 -4.555,-4.943 0,-1.091 0.39,-1.984 1.029,-2.683 -0.103,-0.253 -0.446,-1.27 0.098,-2.647 0,0 0.84,-0.269 2.75,1.025A9.564,9.564 0,0,1 12,6.844c0.85,0.004 1.705,0.114 2.504,0.336 1.909,-1.294 2.747,-1.025 2.747,-1.025 0.546,1.377 0.203,2.394 0.1,2.647 0.64,0.699 1.028,1.592 1.028,2.683 0,3.842 -2.339,4.687 -4.566,4.935 0.359,0.309 0.678,0.919 0.678,1.852 0,1.336 -0.012,2.415 -0.012,2.743 0,0.267 0.18,0.578 0.688,0.481C19.138,20.167 22,16.42 22,12c0,-5.523 -4.477,-10 -10,-10Z" />
+                            </svg>
+                            Download on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+    </main>
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -351,11 +358,8 @@
             <div class="footer-main">
                 <div class="footer-brand">
                     <div class="footer-logo">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
-                            <polyline points="17 2 12 7 7 2"></polyline>
-                        </svg>
+                        <img src="./Data/App%20icon.png" alt="TV Control Hub Logo" width="32" height="32"
+                            style="border-radius: 8px;">
                         <span>TV Control Hub</span>
                     </div>
                     <p class="footer-description">
@@ -365,7 +369,7 @@
 
                 <div class="footer-links">
                     <div class="footer-column">
-                        <h4>Product</h4>
+                        <h3>Product</h3>
                         <a href="#why-choose-us">Why Choose Us</a>
                         <a href="#how-it-works">How it Works</a>
                         <a href="#download">Download</a>

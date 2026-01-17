@@ -123,9 +123,7 @@ body::before {
     z-index: 1001;
 }
 
-.nav-logo svg {
-    color: var(--primary);
-}
+
 
 .nav-links {
     display: flex;
@@ -712,9 +710,7 @@ h1 {
     margin-bottom: var(--spacing-sm);
 }
 
-.footer-logo svg {
-    color: var(--primary);
-}
+
 
 .footer-description {
     color: var(--text-secondary);
