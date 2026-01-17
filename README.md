@@ -38,15 +38,19 @@ Instantly discover and connect to TVs on your Wi-Fi network.
 
 ---
 
-### 🔗 Pair & Control
+### 🔗 Pair
 Secure pairing followed by a full-featured remote interface.
 
 <p align="center">
   <img src="README - Data/Remote Paring Screen - APP.png" width="30%" alt="App Pairing Screen" />
   <img src="README - Data/Remote Paring Screen - TV.png" width="30%" alt="TV Pairing Code Screen" />
-  <img src="README - Data/Tv Remote Screen.png" width="30%" alt="TV Remote Interface" />
 </p>
 
+---
+### 🎮 Control
+<p align="center">
+    <img src="README - Data/Tv Remote Screen.png" width="30%" alt="TV Remote Interface" />
+</p>
 ---
 
 ### 📡 Cast Media
