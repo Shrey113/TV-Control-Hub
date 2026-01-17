@@ -29,31 +29,32 @@ TV Control Hub is a free Android app that turns your smartphone into a complete 
 *   ⚡ **Quick Access**: Connect instantly via home screen shortcuts.
 
 ---
-
 ## 📱 Screenshots
 
-<div align="center">
+### 🏠 Home Screen
+Instantly discover and connect to TVs on your Wi-Fi network.
 
-### 1. Home Screen
-<img src="README - Data/Home Screen.png" width="300" alt="Home Screen"/>
+<img src="README - Data/Home Screen.png" width="280" alt="TV Control Hub Home Screen" />
 
-### 2. Capabilities
+---
 
-#### A. Pair & Control Flow
-*Seamlessly pair with your TV and take full control.*
+### 🔗 Pair & Control
+Secure pairing followed by a full-featured remote interface.
+
 <p align="center">
-  <img src="README - Data/Remote Paring Screen - APP.png" width="30%" alt="App Pairing"/>
-  <img src="README - Data/Remote Paring Screen - TV.png" width="30%" alt="TV Pairing Code"/> 
-  <img src="README - Data/Tv Remote Screen.png" width="30%" alt="Remote Interface"/>
+  <img src="README - Data/Remote Paring Screen - APP.png" width="30%" alt="App Pairing Screen" />
+  <img src="README - Data/Remote Paring Screen - TV.png" width="30%" alt="TV Pairing Code Screen" />
+  <img src="README - Data/Tv Remote Screen.png" width="30%" alt="TV Remote Interface" />
 </p>
 
-#### B. Cast Media
-*Cast your favorite content directly to the big screen.*
-<br>
-<img src="README - Data/Cast Screen.png" width="300" alt="Cast Screen"/>
+---
 
-</div>
+### 📡 Cast Media
+Cast photos and videos directly to your TV.
 
+<p align="center">
+  <img src="README - Data/Cast Screen.png" width="280" alt="Cast Media Screen" />
+</p>
 ---
 
 ## 🚀 How to Use
