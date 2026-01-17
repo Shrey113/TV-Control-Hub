@@ -22,34 +22,11 @@ TV Control Hub is a free Android app that turns your smartphone into a complete 
 
 ## ✨ Key Features
 
-### 📡 **Automatic TV Discovery**
-- Automatically finds all Android TVs on your Wi-Fi network
-- No manual setup required - just open the app!
-- Shows TV status and connection strength
-
-### 🎮 **Complete Remote Control**
-- **Navigation**: D-Pad buttons or modern swipe gestures
-- **Media Controls**: Play, pause, skip, volume control
-- **Smart Keyboard**: Type searches and passwords easily
-- **Number Pad**: Direct channel selection
-- **Power Control**: Turn your TV on/off
-
-### 🔐 **Secure & Private**
-- One-time pairing with your TV
-- Encrypted connection for security
-- No data collection or tracking
-- Works 100% offline on your local network
-
-### 🎨 **Beautiful Design**
-- Modern Material Design interface
-- Dark and Light themes
-- Smooth animations and transitions
-- Customizable controls
-
-### ⚡ **Quick Access**
-- Add your favorite TVs to home screen
-- Launch directly to your TV remote
-- Fast connection and instant response
+*   📡 **Automatic Discovery**: Instantly finds Android TVs on your Wi-Fi—no setup needed.
+*   🎮 **Complete Control**: Navigation (D-Pad/Swipe), media controls, keyboard, and more.
+*   🔐 **Secure & Private**: Encrypted local network connection. No tracking or cloud servers.
+*   🎨 **Beautiful Design**: Modern Material 3 interface with dark/light themes.
+*   ⚡ **Quick Access**: Connect instantly via home screen shortcuts.
 
 ---
 
@@ -57,24 +34,23 @@ TV Control Hub is a free Android app that turns your smartphone into a complete 
 
 <div align="center">
 
-### Find Your TV Instantly
-![Discovery Screen](screenshots/screenshot_1.png)
+### 1. Home Screen
+<img src="README - Data/Home Screen.png" width="300" alt="Home Screen"/>
 
-*The app automatically scans and displays all Android TVs on your network*
+### 2. Capabilities
 
----
+#### A. Pair & Control Flow
+*Seamlessly pair with your TV and take full control.*
+<p align="center">
+  <img src="README - Data/Remote Paring Screen - APP.png" width="30%" alt="App Pairing"/>
+  <img src="README - Data/Remote Paring Screen - TV.png" width="30%" alt="TV Pairing Code"/> 
+  <img src="README - Data/Tv Remote Screen.png" width="30%" alt="Remote Interface"/>
+</p>
 
-### Full-Featured Remote Control
-![Remote Control](screenshots/screenshot_2.png)
-
-*Complete control with navigation, media buttons, volume, and more*
-
----
-
-### Customize Your Experience
-![Settings](screenshots/screenshot_3.png)
-
-*Choose between D-Pad or swipe navigation, adjust themes, and more*
+#### B. Cast Media
+*Cast your favorite content directly to the big screen.*
+<br>
+<img src="README - Data/Cast Screen.png" width="300" alt="Cast Screen"/>
 
 </div>
 

@@ -744,20 +744,21 @@ h1 {
     align-items: center;
     gap: 8px;
     padding: 10px 20px;
-    background: rgba(255, 255, 255, 0.103);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-full);
-    color: var(--text-secondary);
     text-decoration: none;
     font-weight: 500;
     font-size: 0.9rem;
     transition: all var(--transition-fast);
+
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-primary);
+    transform: none;
+    box-shadow: none;
 }
 
 .github-link:hover {
-    background: rgba(255, 255, 255, 0.08);
     border-color: var(--text-secondary);
-    color: var(--text-primary);
     transform: none;
     box-shadow: none;
 }
