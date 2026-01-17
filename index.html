@@ -114,12 +114,8 @@
         <!-- HERO SECTION -->
         <section class="hero">
             <div class="hero-content">
-                <div class="logo-badge">
-                    <div class="status-badge">v1.0 • Stable • Privacy-First</div>
-                </div>
-
                 <h1>
-                    <span class="gradient-text">Control Every Smart TV.</span>
+                    <span class="gradient-text">Control Any Smart TV.</span>
                 </h1>
 
 
@@ -148,31 +144,7 @@
                     </a>
                 </div>
 
-                <!-- Trust Indicators -->
-                <div class="trust-indicators">
-                    <div class="trust-item">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        </svg>
-                        <span>100% Private</span>
-                    </div>
-                    <div class="trust-item">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-                        </svg>
-                        <span>No Ads Ever</span>
-                    </div>
-                    <div class="trust-item">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                        </svg>
-                        <span>Free Forever</span>
-                    </div>
-                </div>
+
             </div>
 
             <!-- Scroll Indicator -->
@@ -422,7 +394,7 @@
         });
 
         // Close mobile nav on link click
-        document.querySelectorAll('.nav-link').forEach(link => {
+        document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
                 navToggle.classList.remove('active');

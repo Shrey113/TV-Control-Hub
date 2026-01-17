@@ -220,21 +220,8 @@ body::before {
     animation: fadeInUp 1s ease-out;
 }
 
-.logo-badge {
-    margin-bottom: var(--spacing-md);
-}
 
-.status-badge {
-    display: inline-block;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(236, 72, 153, 0.2));
-    padding: 10px 24px;
-    border-radius: var(--radius-full);
-    border: 1px solid rgba(99, 102, 241, 0.3);
-    backdrop-filter: blur(10px);
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: var(--text-secondary);
-}
+
 
 h1 {
     font-size: clamp(2.5rem, 8vw, 4.5rem);
@@ -757,21 +744,22 @@ h1 {
     align-items: center;
     gap: 8px;
     padding: 10px 20px;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(236, 72, 153, 0.15));
-    border: 1px solid rgba(99, 102, 241, 0.3);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
     border-radius: var(--radius-full);
-    color: var(--text-primary);
+    color: var(--text-secondary);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 0.9rem;
-    transition: all var(--transition-base);
-    backdrop-filter: blur(10px);
+    transition: all var(--transition-fast);
 }
 
 .github-link:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-glow);
-    border-color: var(--primary);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--text-secondary);
+    color: var(--text-primary);
+    transform: none;
+    box-shadow: none;
 }
 
 /* ===== ANIMATIONS ===== */
@@ -836,24 +824,30 @@ button:focus-visible {
         top: 0;
         right: -100%;
         width: 100%;
-        max-width: 400px;
         height: 100vh;
         background: rgba(15, 23, 42, 0.98);
         backdrop-filter: blur(20px);
         flex-direction: column;
-        align-items: flex-start;
-        padding: 100px 40px 40px;
-        gap: 1.5rem;
-        transition: right var(--transition-base);
-        box-shadow: -10px 0 40px rgba(0, 0, 0, 0.5);
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        gap: 2rem;
+        transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        z-index: 999;
     }
 
     .nav-links.active {
         right: 0;
     }
 
+    .nav-link {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
     .nav-toggle {
         display: flex;
+        z-index: 1002;
     }
 
     .nav-link::after {
@@ -861,45 +855,94 @@ button:focus-visible {
     }
 
     .hero {
-        padding: calc(80px + var(--spacing-md)) var(--spacing-sm) var(--spacing-md);
+        padding: calc(100px + var(--spacing-md)) var(--spacing-sm) var(--spacing-lg);
+        min-height: 100svh;
+        /* Use svh for better mobile browser support */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
+    .hero-content {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3rem;
+        /* Larger mobile heading */
+        line-height: 1.1;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+        padding: 0 1rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+        padding: 18px 24px;
+        /* Larger touch target */
+        font-size: 1.1rem;
+    }
+
+    /* Trust indicators were removed from HTML, but if they return, style them for mobile */
     .trust-indicators {
         flex-direction: column;
-        align-items: center;
+        gap: 1rem;
+    }
+
+    .compatibility {
+        display: none;
     }
 
     .features-grid,
     .benefits-grid {
         grid-template-columns: 1fr;
+        padding: 0 1rem;
     }
 
     .step {
         flex-direction: column;
-        gap: var(--spacing-sm);
+        gap: 1rem;
+        text-align: center;
+        align-items: center;
     }
 
     .step::before {
         display: none;
     }
 
-    .cta-buttons {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .btn {
-        width: 100%;
-        justify-content: center;
+    .step-number {
+        margin: 0 auto;
     }
 
     .footer-main {
         grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-brand {
+        margin: 0 auto;
+    }
+
+    .footer-logo {
+        justify-content: center;
     }
 
     .footer-bottom {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        /* Put copyright at bottom */
+        gap: 1.5rem;
         text-align: center;
+        padding-bottom: 2rem;
     }
 }
 
