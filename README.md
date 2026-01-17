@@ -2,260 +2,121 @@
 
 <div align="center">
 
-**Transform your Android phone into a powerful TV remote control**
+### Transform your Android phone into a TV remote
 
-Control your Smart TV directly from your phone with ease and style
+Control your Android TV or Google TV directly from your phone — simple, fast, and reliable.
 
-![Android](https://img.shields.io/badge/Platform-Android-green.svg)
-![Free](https://img.shields.io/badge/Price-Free-blue.svg)
-![Rating](https://img.shields.io/badge/Rating-★★★★★-yellow.svg)
+![Platform](https://img.shields.io/badge/Platform-Android-green.svg)
+![Price](https://img.shields.io/badge/Price-Free-blue.svg)
 
 </div>
 
 ---
 
-## What is TV Control Hub?
+## 📖 About
 
-TV Control Hub is a free Android app that turns your smartphone into a complete remote control for your Android TV or Google TV. Say goodbye to lost remotes and enjoy controlling your TV from the comfort of your phone.
+**TV Control Hub** is a free Android application that turns your smartphone into a complete remote control for Android TV and Google TV devices.  
+No more searching for lost remotes — control everything directly from your phone with a clean, modern interface.
 
 ---
 
 ## ✨ Key Features
 
-*   📡 **Automatic Discovery**: Instantly finds Android TVs on your Wi-Fi—no setup needed.
-*   🎮 **Complete Control**: Navigation (D-Pad/Swipe), media controls, keyboard, and more.
-*   🔐 **Secure & Private**: Encrypted local network connection. No tracking or cloud servers.
-*   🎨 **Beautiful Design**: Modern Material 3 interface with dark/light themes.
-*   ⚡ **Quick Access**: Connect instantly via home screen shortcuts.
+- 📡 **Automatic Discovery**  
+  Instantly finds Android TVs on your Wi-Fi network with no manual setup.
+
+- 🎮 **Complete Control**  
+  D-Pad or swipe navigation, media controls, keyboard input, and more.
+
+- ⚡ **Quick Access & Simple UI**  
+  Instantly connect using a home screen shortcut.
 
 ---
+
 ## 📱 Screenshots
 
-### 🏠 Home Screen
-Instantly discover and connect to TVs on your Wi-Fi network.
 
-<img src="README - Data/Home Screen.png" width="280" alt="TV Control Hub Home Screen" />
+| 🏠 Home Screen |
+|---------------|
+| <img src="README - Data/Home Screen.png" width="280" alt="TV Control Hub Home Screen" />|
+
+---
+
+### 🔗 Pairing
+
+| App Pairing Screen | TV Pairing Screen |
+|-------------------|------------------|
+| <img src="README - Data/Remote Paring Screen - APP.png" width="280" alt="App Pairing Screen" /> | <img src="README - Data/Remote Paring Screen - TV.png" width="280" alt="TV Pairing Code Screen" /> |
+| Start pairing from the app | Enter the code shown on the TV |
 
 ---
 
-### 🔗 Pair
-Secure pairing followed by a full-featured remote interface.
+### 🎮 Control & Cast
 
-<p align="center">
-  <img src="README - Data/Remote Paring Screen - APP.png" width="30%" alt="App Pairing Screen" />
-  <img src="README - Data/Remote Paring Screen - TV.png" width="30%" alt="TV Pairing Code Screen" />
-</p>
+| Remote Control | Cast Media |
+|---------------|-----------|
+| <img src="README - Data/Tv Remote Screen.png" width="300" alt="TV Remote Interface" /> | <img src="README - Data/Cast Screen.png" width="300" alt="Cast Media Screen" /> |
 
----
-### 🎮 Control
-<p align="center">
-    <img src="README - Data/Tv Remote Screen.png" width="30%" alt="TV Remote Interface" />
-</p>
----
-
-### 📡 Cast Media
-Cast photos and videos directly to your TV.
-
-<p align="center">
-  <img src="README - Data/Cast Screen.png" width="280" alt="Cast Media Screen" />
-</p>
 ---
 
 ## 🚀 How to Use
 
 ### Getting Started
 
-1. **Download and Install**
+1. **Download & Install**
    - Download TV Control Hub from the releases
-   - Install on your Android phone (Android 8.0 or newer)
+   - Requires Android 8.0 or newer
 
 2. **Connect to Wi-Fi**
-   - Make sure your phone and TV are on the same Wi-Fi network
-   - This is required for the app to find your TV
+   - Phone and TV must be on the same Wi-Fi network
 
-3. **Launch the App**
-   - Open TV Control Hub
-   - The app will automatically scan for TVs
+3. **Open the App**
+   - The app automatically scans for available TVs
 
 4. **Select Your TV**
-   - Tap on your TV from the list
-   - Follow the simple pairing process
+   - Tap your TV from the list
+   - Complete the pairing process
 
-5. **Start Controlling!**
-   - Your TV is now paired and ready to use
-   - Enjoy full remote control from your phone
+5. **Start Controlling**
+   - Your TV is ready to use from your phone
 
-### Pairing Your TV
+---
 
-When you connect to a TV for the first time:
+### 🔐 Pairing Process
 
-1. Select the TV from the list
-2. A 6-digit code will appear on your TV screen
-3. Enter the code in the app
-4. Done! Your TV is now paired forever
+1. Select your TV in the app  
+2. A 6-digit code appears on the TV  
+3. Enter the code in the app  
+4. Pairing is complete and saved
 
-### Using the Remote
+---
+
+## 🎮 Using the Remote
 
 **Navigation**
-- Use the D-Pad buttons or swipe on the touchpad
-- Tap center button to select
+- Use D-Pad buttons or swipe gestures
+- Tap the center button to select
 
 **Volume Control**
-- Use on-screen volume buttons
-- Or use your phone's physical volume keys
+- Use on-screen buttons
+- Or your phone’s physical volume keys
 
-**Typing Text**
+**Text Input**
 - Tap the keyboard icon
-- Type your search or password
-- Send to TV instantly
+- Type instantly on your phone and send to TV
 
 **Quick Actions**
-- Power button to turn TV on/off
-- Home button to go to TV home screen
-- Back button to navigate back
+- Power: Turn TV on/off
+- Home: Go to TV home screen
+- Back: Navigate backward
 
 **Home Screen Shortcut**
-- Tap the "Add to Home" button
-- Place a shortcut on your home screen
-- Launch remote control instantly
-
----
-
-## ❓ Common Questions
-
-**Q: Which TVs are supported?**
-A: Any TV running Android TV or Google TV, including brands like Sony, TCL, Hisense, Philips, and more.
-
-**Q: Do I need internet to use this?**
-A: No! The app works completely offline. You only need your phone and TV on the same Wi-Fi network.
-
-**Q: Is this app safe?**
-A: Yes! The app uses encrypted connections and doesn't collect any personal data. Everything stays on your local network.
-
-**Q: Can I control multiple TVs?**
-A: Absolutely! Pair as many TVs as you want and switch between them easily.
-
-**Q: Why can't I find my TV?**
-A: Make sure:
-- Your TV is turned on
-- Both phone and TV are on the same Wi-Fi network
-- Your router allows device discovery (check router settings)
-
-**Q: The connection keeps dropping, why?**
-A: This usually happens when your router has aggressive power-saving settings. Try disabling Wi-Fi power saving on your phone.
-
-**Q: Is this the official Google app?**
-A: No, this is an independent app that uses the official Android TV Remote Protocol.
-
----
-
-## 📋 Requirements
-
-**Your Phone:**
-- Android 8.0 or newer
-- Wi-Fi connection
-- At least 20MB of storage
-
-**Your TV:**
-- Android TV (version 5.0+) or Google TV
-- Connected to the same Wi-Fi network
-- Popular brands: Sony, TCL, Hisense, Philips, etc.
-
----
-
-## 🎯 Tips for Best Experience
-
-✅ **Keep your phone and TV on the same Wi-Fi network**
-   - Move closer to your Wi-Fi router if you experience connection issues
-
-✅ **Add frequently used TVs to your home screen**
-   - Quick access without opening the main app
-
-✅ **Use swipe navigation for a modern feel**
-   - Go to Settings and switch from D-Pad to Swipe mode
-
-✅ **Enable volume key control**
-   - Control TV volume using your phone's physical buttons
-
-✅ **Keep the app updated**
-   - New features and improvements are added regularly
-
----
-
-## 💡 Why Choose TV Control Hub?
-
-### **Never Lose Your Remote Again**
-Your phone is always with you - now it's also your TV remote!
-
-### **Faster Text Input**
-Type searches and passwords on your phone's keyboard instead of hunting and pecking on TV.
-
-### **Modern & Intuitive**
-Beautiful interface that's easier to use than your physical remote.
-
-### **Completely Free**
-No subscriptions, no ads, no hidden costs. Just free, forever.
-
-### **Privacy First**
-Your data stays on your device. No tracking, no cloud, no worries.
-
----
-
-## 🌟 What Users Say
-
-> *"Finally, a TV remote app that actually works! Super easy to set up and use."*  
-> — Sarah M.
-
-> *"I love that I can add shortcuts to my home screen for each TV in my house."*  
-> — David K.
-
-> *"The swipe navigation is so much better than pressing buttons. Game changer!"*  
-> — Lisa T.
-
-> *"No more hunting for the remote when it falls between couch cushions!"*  
-> — Mike R.
-
----
-
-## 📞 Need Help?
-
-Having issues or have questions?
-
-- **Check the FAQ** above for common solutions
-- **Report a problem**: Open an issue on GitHub
-- **Feature request**: We'd love to hear your ideas!
-
----
-
-## 🔄 Updates & New Features
-
-We're constantly improving TV Control Hub! Recent additions:
-
-- ✨ Swipe navigation mode
-- 🎨 Dark and light themes
-- ⚡ Faster connection times
-- 🏠 Home screen shortcuts
-- ⌨️ Improved keyboard input
-- 🔧 Advanced settings and customization
+- Add a shortcut from the app
+- Launch the remote instantly
 
 ---
 
 ## 📜 License
 
-TV Control Hub is open source and free to use. See the LICENSE file for details.
+TV Control Hub is Closed source and free to use.  
 
----
-
-<div align="center">
-
-**Download TV Control Hub Today**
-
-Available now for Android devices
-
----
-
-**Made with ❤️ for TV lovers everywhere**
-
-[⬆ Back to Top](#-tv-control-hub)
-
-</div>
