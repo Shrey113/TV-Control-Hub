@@ -744,7 +744,7 @@ h1 {
     align-items: center;
     gap: 8px;
     padding: 10px 20px;
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.103);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-full);
     color: var(--text-secondary);
