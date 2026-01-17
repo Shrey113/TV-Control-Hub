@@ -6,3 +6,4 @@
 !.gitignore
 !.github/
 !.github/**
+!README.md
