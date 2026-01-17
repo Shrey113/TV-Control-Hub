@@ -4,12 +4,6 @@
 
 **Transform your Android phone into a powerful TV remote control**
 
-Control your Smart TV directly from your phone with ease and style
-
-![Android](https://img.shields.io/badge/Platform-Android-green.svg)
-![Free](https://img.shields.io/badge/Price-Free-blue.svg)
-![Rating](https://img.shields.io/badge/Rating-★★★★★-yellow.svg)
-
 </div>
 
 ---
