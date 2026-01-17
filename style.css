@@ -241,7 +241,7 @@ body::before {
 h1 {
     font-size: clamp(2.5rem, 8vw, 4.5rem);
     font-weight: 800;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
     background: linear-gradient(135deg, #FFFFFF, #94A3B8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -258,14 +258,15 @@ h1 {
 }
 
 .subtitle {
-    font-size: clamp(1.1rem, 3vw, 1.35rem);
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
     color: var(--text-secondary);
-    margin-bottom: var(--spacing-lg);
-    max-width: 700px;
+    margin-bottom: var(--spacing-md);
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.7;
+    line-height: 1.6;
 }
+
 
 .cta-buttons {
     display: flex;
@@ -284,49 +285,18 @@ h1 {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    transition: all var(--transition-base);
+    transition: opacity 0.2s ease;
     border: none;
     cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    isolation: isolate;
-    /* Creates stacking context */
-}
-
-/* Text and icons stay above overlay */
-.btn>* {
-    position: relative;
-    z-index: 1;
-}
-
-.btn::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    opacity: 0;
-    transition: opacity var(--transition-base);
-    z-index: 0;
-    /* Behind text/icons */
 }
 
 .btn-primary {
     background: linear-gradient(135deg, var(--primary), var(--primary-dark));
     color: white;
-    box-shadow: var(--shadow-glow);
-}
-
-.btn-primary::before {
-    background: linear-gradient(135deg, var(--primary-light), var(--primary));
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px) scale(1.02);
-    box-shadow: var(--shadow-glow-lg);
-}
-
-.btn-primary:hover::before {
-    opacity: 1;
+    opacity: 0.9;
 }
 
 .btn-primary:focus {
@@ -344,7 +314,6 @@ h1 {
 .btn-secondary:hover {
     background: rgba(255, 255, 255, 0.12);
     border-color: var(--primary);
-    transform: translateY(-2px);
 }
 
 .btn-secondary:focus {
@@ -360,6 +329,7 @@ h1 {
 .btn svg {
     flex-shrink: 0;
 }
+
 
 /* Trust Indicators */
 .trust-indicators {

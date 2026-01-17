@@ -8,11 +8,6 @@
 !.github/**
 !README.md
 !index.html
+!style.css
+!script.js
 
-# Unignore pages directory and its subdirectories
-!pages/
-!pages/**
-!pages/css/
-!pages/css/style.css
-!pages/js/
-!pages/js/script.js
