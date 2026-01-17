@@ -46,7 +46,7 @@ No more searching for lost remotes — control everything directly from your pho
 
 | App Pairing Screen | TV Pairing Screen |
 |-------------------|------------------|
-| <img src="README - Data/Remote Paring Screen - APP.png" width="280" alt="App Pairing Screen" /> | <img src="README - Data/Remote Paring Screen - TV.png" width="280" alt="TV Pairing Code Screen" /> |
+| <img src="README - Data/Remote Paring Screen - APP.png" width="280" alt="App Pairing Screen" /> | <img src="README - Data/Remote Paring Screen - TV.png"  alt="TV Pairing Code Screen" /> |
 | Start pairing from the app | Enter the code shown on the TV |
 
 ---
