@@ -2,8 +2,17 @@
 *
 */
 
-# But not these files and folders:
+# Allow important files
 !.gitignore
 !.github/
 !.github/**
 !README.md
+!index.html
+
+# Unignore pages directory and its subdirectories
+!pages/
+!pages/**
+!pages/css/
+!pages/css/style.css
+!pages/js/
+!pages/js/script.js
