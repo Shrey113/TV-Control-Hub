@@ -1,4 +1,4 @@
-# 📺 TV Control Hub
+# TV Control Hub
 
 <div align="center">
 
@@ -131,4 +131,5 @@ No more searching for lost remotes — control everything directly from your pho
 ## 📜 License
 
 TV Control Hub is Closed source and free to use.  
+
 
